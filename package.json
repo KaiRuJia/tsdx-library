@@ -19,7 +19,7 @@
     "prepare": "tsdx build",
     "size": "size-limit",
     "analyze": "size-limit --why",
-    "publish": "npm run build && npm version patch && npm publish"
+    "release": "npm run build && npm version patch && npm publish"
   },
   "husky": {
     "hooks": {
