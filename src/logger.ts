@@ -83,10 +83,10 @@ export class Logger {
   }
 }
 
-// 使用示例1
-Logger.info('Application is starting...')
-Logger.error('Failed to load user data', new Error('Network Error'))
+// // 使用示例1
+// Logger.info('Application is starting...')
+// Logger.error('Failed to load user data', new Error('Network Error'))
 
-// 使用示例2
-Logger.debug('This will not be logged in production');
-Logger.warn('This will be logged in production');
+// // 使用示例2
+// Logger.debug('This will not be logged in production');
+// Logger.warn('This will be logged in production');
